@@ -1,0 +1,43 @@
+--Тапшырма №1 (Deadline: Среда 11:00)
+
+--1.SELECT CustomerName, Country FROM Customers;
+--2.SELECT DISTINCT Country FROM Customers;
+--3.SELECT distinct count(*) FROM Customers group by country;
+--4.SELECT * FROM Customers WHERE Country LIKE 'Mexico';
+--5.SELECT City,Address FROM Customers WHERE CustomerID=1;
+--6.SELECT * FROM Customers WHERE country='Germany' OR country='Spain';
+--7.SELECT * FROM Customers ORDER BY CustomerName DESC;
+--7.SELECT * FROM Customers ORDER BY Country;
+--8.SELECT * FROM Customers WHERE address=null;
+--9.SELECT MIN(price) FROM Products;
+--10.SELECT COUNT(*) FROM Products;
+--11.SELECT * FROM Customers WHERE customerName LIKE 'A%';
+--12.SELECT * FROM Customers WHERE country='Germany' OR country='France' OR country='Britannia';
+--13.SELECT * FROM Customers,Suppliers WHERE customers.country=suppliers.country;
+--14.SELECT * FROM Orders WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
+
+--Тапшырма №2 (Deadline: Среда 11:00)
+
+--1.SELECT brand, model ,price FROM cars GROUP BY brand, model, price;
+--2.SELECT count(*) FROM cars ;
+--3.SELECT * FROM cars WHERE brand='Hyundai';
+--4.SELECT * FROM cars WHERE color IN ('Red',('Blue'));
+--5.SELECT * FROM cars where year_of_issue between '2000' and '2010';
+--6.SELECT count(*) FROM cars WHERE brand= 'Chevrolet';
+--7.SELECT avg(year_of_issue) FROM cars;
+--8.SELECT * FROM cars WHERE brand IN ('Audi',('Toyota'),('Kia'),('Ford'));
+--9.SELECT * FROM cars WHERE model LIKE 'T%';
+--10.SELECT * FROM cars WHERE model LIKE '%e';
+--11.SELECT * FROM cars WHERE model LIKE '_____';
+--12.SELECT * FROM cars WHERE brand LIKE 'Mercedes-Benz';
+--13.SELECT 'condition', MIN(price) price, MAX(price) price FROM Cars;
+--14.SELECT * FROM cars;
+--15.SELECT * FROM cars ORDER BY price DESC LIMIT 10;
+--16.SELECT * FROM cars LIMIT 15 OFFSET 5;
+--17.SELECT * FROM;
+--18.SELECT * FROM cars WHERE color IN count(*)= 'brand';
+
+
+
+
+
